@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9a0dc"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/splashtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIVEVISION"
+        android:textColor="#002e63"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="50sp"
+
+         />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:layout_marginTop="70dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splashicon" />
+
+    <TextView
+        android:id="@+id/splashinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Real Time Object Recognition"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+
+
+</LinearLayout>
